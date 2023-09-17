@@ -1,1 +1,2 @@
+# Activates the more stric linter added as a dev dependency
 include: package:lint/strict.yaml
