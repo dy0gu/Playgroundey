@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  What is <i>that</i> button for? ⚙️🔨
+  What is <i>that</i> button for? 📱🔨
   <br>
   <br>
 </h1>
@@ -64,6 +64,7 @@
   ```
 
 <br>
+
 - If you want to change the cross-platform app icon or splash screen you should edit `flutter_launcher_icons.yaml` and `flutter_native_splash.yaml` respectively, then call:
 
   ```shell
@@ -74,10 +75,11 @@
   The packages used to generate them are [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) and [flutter_native_splash](https://pub.dev/packages/flutter_native_splash). If you run into any issues, please refer to their documentation.
 
 <br>
+
 - There is already a `firebase.json` pre-included for people who want to quickly deploy to firebase hosting, simply make sure you have the firebase CLI installed and that you have previously logged in to your account, then run:
 
   ```shell
   firebase deploy --project <your-project-id>
   ```
 
-  If you do/will not use firebase hosting, you can safely delete the file.
+  If you do not use or plan on using firebase hosting, you should delete this file.
