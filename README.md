@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  Playgroundey is a sandbox/template type app, a place where you can find experiments and ideas. You will always encounter a fully functional app in this repository, but there is no guarantee that it will be a very complete or complex one. The latest stable commit is usually [live](https://playgroundey.web.app) as a web version.
+  Playgroundey is a sandbox/template type app, a place where you can find experiments and ideas. You will always encounter a fully functional app in this repository, but there is no guarantee that it will be a very complete or complex one. The latest stable commit is usually kept <a href="https://playgroundey.web.app">live</a> and updated as a web version.
 </p>
 <br>
 
