@@ -13,7 +13,7 @@ class ErrorPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              "Something went wrong here, try hitting the button below to go back home!",
+              "Something went wrong, try going back to the start page!",
               style: TextStyle(
                 fontSize: 20,
               ),
