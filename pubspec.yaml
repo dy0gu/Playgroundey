@@ -1,0 +1,56 @@
+name: playgroundey
+description: Sandbox for all flutter development needs!
+
+# This line prevents the project from being accidentally published as a package.
+publish_to: none
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+version: 1.0.0+1
+
+# Specifies what Dart SDK versions are supported, generally you don't need to touch this.
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_native_splash: ^2.3.1
+  go_router: ^10.1.2
+  logger: ^2.0.2
+  url_strategy: ^0.2.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  lint: ^2.0.0
+
+flutter:
+  # Required for material icons, even if you don't follow material design guidelines!
+  # Essentially the same as the cupertio_icons dependency above.
+  # Also overrides certain flutter widgets with material ones if enabled.
+  uses-material-design: true
+
+
+  # Add assets to be shipped with your application build here.
+  # You can point the path to entire folders or just single files!
+  assets:
+    - assets/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here.
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
